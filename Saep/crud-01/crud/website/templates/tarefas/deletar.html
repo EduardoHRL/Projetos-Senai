@@ -1,9 +1,0 @@
-{% extends 'base.html' %}
-{% block title %}Deletar Tarefas{% endblock %}
-{% block content %}
-    <form action="" method="post" class="p-3">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="p-2 bg-[#0056b3] rounded mt-2">Deletar</button>
-    </form>
-{% endblock %}

@@ -1,9 +1,0 @@
-{% extends 'base.html' %}
-{% block title %}Exclusão de Cliente{% endblock %}
-{% block content %}
-    <form method="post">
-        {% csrf_token %}
-        Deseja deletar o Cliente?
-        <button type="submit">Deletar</button>
-    </form>
-{% endblock %}
